@@ -5,13 +5,13 @@ import AuthProvider from './context/AuthContext';
 import Header from './components/layout/Header';
 
 
-const Home = lazy(() => import('./pages/Home'));
+const Home = lazy(() => import('./Pages/Home'));
 const Login = lazy(() => import('./Pages/auth/Login'));
 const Signup = lazy(() => import('./Pages/auth/Signup'));
-const MyListings = lazy(() => import('./pages/owner/MyListings'));
-const AddRoom = lazy(() => import('./pages/AddRoom'));
-const EditRoom = lazy(() => import('./pages/EditRoom'));
-const RoomDetails = lazy(() => import('./pages/RoomDetails'));
+const MyListings = lazy(() => import('./Pages/owner/MyListings'));
+const AddRoom = lazy(() => import('./Pages/AddRoom'));
+const EditRoom = lazy(() => import('./Pages/EditRoom'));
+const RoomDetails = lazy(() => import('./Pages/RoomDetails'));
 
 
 const LoadingSpinner = () => (
